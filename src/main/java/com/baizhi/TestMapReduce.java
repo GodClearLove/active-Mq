@@ -66,7 +66,7 @@ public class TestMapReduce {
         //outputFormat
         TextOutputFormat.setOutputPath(job,new Path("/dest"));
 
-        //提交
+        //提交------
         job.waitForCompletion(true);
     }
 }
